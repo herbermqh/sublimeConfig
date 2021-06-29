@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+\\begin{table}[H]
+	\\centering
+	\\begin{longtable}[C]{${1}}
+		\\toprule
+		${2}
+		\\midrule
+		${3}
+		\\bottomrule
+	\\end{longtable}
+	\\caption{${4}}
+\\end{table}
+]]></content>
+	<tabTrigger>longtable</tabTrigger>
+	<scope>text.tex.latex</scope>
+</snippet>

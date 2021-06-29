@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+\\begin{center}
+	\\begin{tikzpicture}
+		${0}
+	\end{tikzpicture}
+\\end{center}
+]]></content>
+	<tabTrigger>tikz</tabTrigger>
+	<scope>text.tex.latex</scope>
+</snippet>

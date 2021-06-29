@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\\begin{empheq}[box=\\respuesta]{align*}
+	${0}
+\\end{empheq}
+]]></content>
+	<tabTrigger>resp</tabTrigger>
+	<scope>text.tex.latex</scope>
+</snippet>

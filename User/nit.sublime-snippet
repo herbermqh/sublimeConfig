@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\\begin{NameItem}[${1:nombre}]
+	\\item ${0} 
+\\end{NameItem}
+]]></content>
+	<tabTrigger>nit</tabTrigger>
+	<scope>text.tex.latex</scope>
+</snippet>

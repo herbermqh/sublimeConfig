@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\\begin{empheq}[box=\tabox{${1:título}}]{align*}
+	${0}
+\\end{empheq}
+]]></content>
+	<tabTrigger>tabox</tabTrigger>
+	<scope>text.tex.latex</scope>
+</snippet>

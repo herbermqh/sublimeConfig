@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\\begin{question}
+	\\item ${0}
+\\end{question}
+]]></content>
+	<tabTrigger>qt</tabTrigger>
+	<scope>text.tex.latex</scope>
+</snippet>
+

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\\parbox{\\widthparbox}{\\pgfimage[width=\\widthparbox]{\\rootimage/${0}}}
+]]></content>
+	<tabTrigger>parboxImage</tabTrigger>
+	<scope>text.tex.latex</scope>
+</snippet>

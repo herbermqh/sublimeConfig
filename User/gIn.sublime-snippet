@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+\\begin{center}
+    \\begin{scaletikzpicturetowidth}{7cm}
+        \\begin{tikzpicture}[scale=\\tikzscale]
+            \\def\\numerosCriticos{${0:puntos critico}}
+            \\def\\simbolo{/} %punto critico/simbolo
+            \\def\\cerradoAbierto{/} %punto critico/cerrado o abierto
+            \\def\\inicial{-} %+ o -
+            \\def\\final{+} %+ o -
+            \\graficaIntervalos
+            \\scoped[on background layer]{
+                \\draw[latex-latex, \\lineaColor, line width=\\lineaGrosor] 
+                (\\inicialX,\\yy) -| (,\\yy) -- (\\finalX,\\yy);
+            }
+        \\end{tikzpicture}
+    \\end{scaletikzpicturetowidth}
+\\end{center}
+]]></content>
+    <tabTrigger>gIn</tabTrigger>
+    <scope>text.tex.latex</scope>
+</snippet>

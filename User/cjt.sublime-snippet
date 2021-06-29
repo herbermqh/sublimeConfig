@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+\\left[ 
+\\begin{aligned} 
+	$0 
+\\end{aligned}
+\\right.
+]]></content>
+	<tabTrigger>cjt</tabTrigger>
+	<scope>text.tex.latex meta.environment.math</scope>
+</snippet>
+

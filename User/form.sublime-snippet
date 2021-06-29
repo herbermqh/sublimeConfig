@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\\begin{empheq}[box=\formeq]{align}
+	${0}
+\\end{empheq}
+]]></content>
+	<tabTrigger>form</tabTrigger>
+	<scope>text.tex.latex</scope>
+</snippet>

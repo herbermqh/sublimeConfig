@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+figura \\hImageM{${1:nombre}} \\refig{${1:nombre}}
+]]></content>
+	<tabTrigger>imgm</tabTrigger>
+	<scope>text.tex.latex</scope>
+</snippet>

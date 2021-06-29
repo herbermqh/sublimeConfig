@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+figura \\refig{${1:nombre}}
+\marginote{
+	\\begin{figure}[H]
+		\\centering
+		\\subfigure[${4}]{
+			\\pgfimage[width=\marginparwidth]{\rootimage/$1$2}
+			\\label{fig:$1$2}
+		}
+		\\subfigure[${5}]{
+			\\pgfimage[width=\marginparwidth]{\rootimage/$1$3}
+			\\label{fig:$1$3}
+		}
+		\\caption{}
+		\\label{fig:$1}
+	\\end{figure}
+}
+]]></content>
+	<tabTrigger>nimgm</tabTrigger>
+	<scope>text.tex.latex</scope>
+</snippet>

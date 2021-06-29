@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\\begin{definicion}[${1}]
+	${0}
+\\end{definicion}
+]]></content>
+	<tabTrigger>def</tabTrigger>
+	<scope>text.tex.latex</scope>
+</snippet>

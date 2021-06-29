@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+\\begin{ej}
+	\\begin{pre}
+		${1}
+	\\end{pre}
+	\\begin{sol}
+		${0}
+	\\end{sol}
+\\end{ej}
+]]></content>
+	<tabTrigger>ej</tabTrigger>
+	<scope>text.tex.latex</scope>
+</snippet>

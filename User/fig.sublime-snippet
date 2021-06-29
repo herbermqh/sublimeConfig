@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+\\begin{center}
+    \\begin{scaletikzpicturetowidth}{7cm}
+        \\begin{tikzpicture}[scale=\\tikzscale]
+        	${0}
+        \\end{tikzpicture}
+    \\end{scaletikzpicturetowidth}
+\\end{center}
+]]></content>
+	<tabTrigger>fig</tabTrigger>
+	<scope>text.tex.latex</scope>
+</snippet>

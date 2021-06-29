@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[\\left\\{ ${0} \\right\\}]]></content>
+	<tabTrigger>lrbrace</tabTrigger>
+	<scope>text.tex.latex</scope>
+</snippet>

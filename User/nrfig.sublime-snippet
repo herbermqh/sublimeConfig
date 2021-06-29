@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+figura \\refig{${1:nombre}}
+\\begin{figure}[H]
+	\\centering
+	\\subfigure[${2}]{
+		\\begin{tikzpicture}
+			\draw (-2,-2) rectangle (2,2);
+		\\end{tikzpicture} 
+	}
+	\\subfigure[${4}]{
+		\\begin{tikzpicture}
+			\draw (-2,-2) rectangle (2,2);
+		\\end{tikzpicture}                                          
+	}
+	\\caption{}
+	\\label{fig:$1}
+\\end{figure}
+]]></content>
+	<tabTrigger>nrfig</tabTrigger>
+	<scope>text.tex.latex</scope>
+</snippet>

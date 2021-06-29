@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+figura \\refig{${1:nombre}}
+\\begin{figure}[H]
+	\\centering
+	\\begin{tikzpicture}
+		\draw (-2,-2) rectangle (2,2);
+	\\end{tikzpicture}
+	\\caption{}
+	\\label{fig:$1}
+\\end{figure}	
+${0}
+]]></content>
+	<tabTrigger>rfig</tabTrigger>
+	<scope>text.tex.latex</scope>
+</snippet>

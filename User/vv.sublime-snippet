@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\\vec{${1}}]]></content>
+	<tabTrigger>vv</tabTrigger>
+	<scope>text.tex.latex</scope>
+</snippet>
+
