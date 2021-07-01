@@ -967,7 +967,7 @@
             { "key": "selector", "operator": "equal", "operand": "text.tex.latex" }
         ]
     },
-    { "keys": ["`", " "], "command": "insert_snippet", "args": {"contents": "\\;$0"}, "context":
+    { "keys": [" ", " "], "command": "insert_snippet", "args": {"contents": "\\;$0"}, "context":
         [
             { "key": "selector", "operator": "equal", "operand": "text.tex.latex"}
         ]
