@@ -28,6 +28,7 @@
 		"LaTeXTab",
 		"LaTeXTools",
 		"LaTeXYZ",
+		"LSP-TexLab",
 		"Material Monokai",
 		"Monokai - Spacegray",
 		"MultiEditUtils",
@@ -38,7 +39,8 @@
 		"SidebarHoverToggle",
 		"SideBarTools",
 		"SublimeLinter",
-		"Theme - Spacegray"
+		"Tabnine",
+		"Theme - Spacegray",
 	],
 	"repositories":
 	[
