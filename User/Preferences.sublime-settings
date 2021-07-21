@@ -32,6 +32,6 @@
 	"overlay_scroll_bars": "enabled",
 	"word_wrap": true,
 	"theme": "Seti.sublime-theme",
-	"color_scheme": "Packages/ayu/ayu-dark.sublime-color-scheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"auto_complete": true,
 }
